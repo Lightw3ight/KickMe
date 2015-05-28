@@ -5,6 +5,33 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KickMe.Web", "KickMe.Web\KickMe.Web.csproj", "{4A458D00-4D2A-4EE8-93C4-95CD4EDF0501}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gulp", "gulp", "{1595A59C-5C1A-4780-8DDA-27003D42EDBC}"
+	ProjectSection(SolutionItems) = preProject
+		gulpfile.js = gulpfile.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{180D793E-069B-490C-A443-9855F82E168B}"
+	ProjectSection(SolutionItems) = preProject
+		build\config.json = build\config.json
+		build\errorHandler.js = build\errorHandler.js
+		build\logger.js = build\logger.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clean", "clean", "{9228E25D-0058-4B2E-961F-1CE9347ADA7E}"
+	ProjectSection(SolutionItems) = preProject
+		build\clean\clean-task.js = build\clean\clean-task.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compile-scss", "compile-scss", "{F672DC83-E77A-4278-9227-D916261BCA15}"
+	ProjectSection(SolutionItems) = preProject
+		build\compile-scss\compile-scss-task.js = build\compile-scss\compile-scss-task.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compile-ts", "compile-ts", "{CCC0EEDF-345E-4A5F-8D43-A684643BFF66}"
+	ProjectSection(SolutionItems) = preProject
+		build\compile-ts\compile-ts-task.js = build\compile-ts\compile-ts-task.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +45,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{180D793E-069B-490C-A443-9855F82E168B} = {1595A59C-5C1A-4780-8DDA-27003D42EDBC}
+		{9228E25D-0058-4B2E-961F-1CE9347ADA7E} = {180D793E-069B-490C-A443-9855F82E168B}
+		{F672DC83-E77A-4278-9227-D916261BCA15} = {180D793E-069B-490C-A443-9855F82E168B}
+		{CCC0EEDF-345E-4A5F-8D43-A684643BFF66} = {180D793E-069B-490C-A443-9855F82E168B}
 	EndGlobalSection
 EndGlobal

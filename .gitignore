@@ -7,3 +7,5 @@ KickMe.v12.suo
 packages
 KickMe.Web/Content/Styles/**/*.css
 node_modules
+KickMe.Web/app/**/*.js
+KickMe.Web/app/**/*.map

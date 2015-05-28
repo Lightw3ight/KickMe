@@ -1,0 +1,18 @@
+{
+	"tsGlob": "KickMe.Web/app/**/*.ts",
+	"typingsGlob": "KickMe.Web/scripts/typings/**/*.ts",
+	
+	"scssGlob": "KickMe.Web/Content/Styles/**/*.scss",
+	"stylesRoot": "KickMe.Web/Content/Styles",
+	"app": "KickMe.Web/app",
+	"src": "KickMe.Web",
+	"autoprefixerBrowserSupport": [
+		"> 5%",
+		"Explorer 11",
+		"Firefox >= 30",
+		"Chrome >= 34",
+		"Safari >= 5.1",
+		"Opera >= 22",
+		"Android >= 4.1"
+	  ]
+}
