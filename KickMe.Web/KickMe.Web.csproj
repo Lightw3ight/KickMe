@@ -1008,23 +1008,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\controllers\" />
     <Folder Include="app\directives\" />
+    <Folder Include="app\services\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app\app.ts" />
-    <TypeScriptCompile Include="app\controllers\ProjectFormController.ts" />
-    <TypeScriptCompile Include="app\controllers\RootController.ts" />
-    <TypeScriptCompile Include="app\models\IComment.d.ts" />
-    <TypeScriptCompile Include="app\models\ILocation.d.ts" />
-    <TypeScriptCompile Include="app\models\IUnit.d.ts" />
-    <TypeScriptCompile Include="app\models\IProjectItem.d.ts" />
-    <TypeScriptCompile Include="app\models\IProject.d.ts" />
-    <TypeScriptCompile Include="app\services\LocationService.ts" />
-    <TypeScriptCompile Include="app\services\CommentService.ts" />
-    <TypeScriptCompile Include="app\services\UnitService.ts" />
-    <TypeScriptCompile Include="app\services\ProjectService.ts" />
     <TypeScriptCompile Include="Scripts\typings\angular-ui-bootstrap\angular-ui-bootstrap.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
