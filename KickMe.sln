@@ -5,6 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KickMe.Web", "KickMe.Web\KickMe.Web.csproj", "{4A458D00-4D2A-4EE8-93C4-95CD4EDF0501}"
 EndProject
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gulp", "gulp", "{1595A59C-5C1A-4780-8DDA-27003D42EDBC}"
 	ProjectSection(SolutionItems) = preProject
 		gulpfile.js = gulpfile.js
@@ -31,6 +32,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "compile-ts", "compile-ts", 
 	ProjectSection(SolutionItems) = preProject
 		build\compile-ts\compile-ts-task.js = build\compile-ts\compile-ts-task.js
 	EndProjectSection
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KickMe.Data", "KickMe.Data\KickMe.Data.csproj", "{A52614E3-20EC-499B-B8B4-A06D6DFDA0FE}"
+>>>>>>> origin/master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +46,10 @@ Global
 		{4A458D00-4D2A-4EE8-93C4-95CD4EDF0501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A458D00-4D2A-4EE8-93C4-95CD4EDF0501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A458D00-4D2A-4EE8-93C4-95CD4EDF0501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52614E3-20EC-499B-B8B4-A06D6DFDA0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52614E3-20EC-499B-B8B4-A06D6DFDA0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52614E3-20EC-499B-B8B4-A06D6DFDA0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52614E3-20EC-499B-B8B4-A06D6DFDA0FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
