@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A52614E3-20EC-499B-B8B4-A06D6DFDA0FE}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{83F08531-D384-444E-851D-9913449D2DA6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KickMe.Data</RootNamespace>
-    <AssemblyName>KickMe.Data</AssemblyName>
+    <RootNamespace>EntityFrameworkTestProjectToBeDeleted</RootNamespace>
+    <AssemblyName>EntityFrameworkTestProjectToBeDeleted</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -46,25 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityFramework\KickMeConfiguration.cs" />
-    <Compile Include="EntityFramework\KickMeContext.cs" />
-    <Compile Include="EntityFramework\KickMeIntializer.cs" />
-    <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Comment.cs" />
-    <Compile Include="Models\Commitment.cs" />
-    <Compile Include="Models\Image.cs" />
-    <Compile Include="Models\Location.cs" />
-    <Compile Include="Models\Project.cs" />
-    <Compile Include="Models\ProjectAdmin.cs" />
-    <Compile Include="Models\ProjectItem.cs" />
-    <Compile Include="Models\Reward.cs" />
-    <Compile Include="Models\Unit.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KickMe.Data\KickMe.Data.csproj">
+      <Project>{a52614e3-20ec-499b-b8b4-a06d6dfda0fe}</Project>
+      <Name>KickMe.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
