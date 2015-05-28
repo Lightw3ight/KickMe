@@ -1,0 +1,10 @@
+C:\Data\KickMe\KickMe.Data\bin\Debug\KickMe.Data.dll.config
+C:\Data\KickMe\KickMe.Data\bin\Debug\KickMe.Data.dll
+C:\Data\KickMe\KickMe.Data\bin\Debug\KickMe.Data.pdb
+C:\Data\KickMe\KickMe.Data\bin\Debug\EntityFramework.dll
+C:\Data\KickMe\KickMe.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Data\KickMe\KickMe.Data\bin\Debug\EntityFramework.xml
+C:\Data\KickMe\KickMe.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Data\KickMe\KickMe.Data\obj\Debug\KickMe.Data.csprojResolveAssemblyReference.cache
+C:\Data\KickMe\KickMe.Data\obj\Debug\KickMe.Data.dll
+C:\Data\KickMe\KickMe.Data\obj\Debug\KickMe.Data.pdb
