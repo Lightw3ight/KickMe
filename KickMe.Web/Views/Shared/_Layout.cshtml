@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kick Me - Where good things happen</title>
+	<link href="~/Content/Styles/Bootstrap.css" rel="stylesheet"/>
+	<link href="~/Content/Styles/Base.css" rel="stylesheet" />
+	@RenderSection("styles", false)
+</head>
+<body>
+
+	@RenderBody()
+
+	@Scripts.Render("~/bundles/vendor")
+	@Scripts.Render("~/bundles/app")
+	@RenderSection("scripts", false)
+</body>
+</html>

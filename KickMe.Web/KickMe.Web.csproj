@@ -105,6 +105,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Styles\Base.css">
+      <DependentUpon>Base.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Styles\Bootstrap.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\angular-animate.js" />
@@ -879,9 +883,84 @@
     <Content Include="Scripts\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
+    <Content Include="Content\Styles\Base.scss" />
+    <Content Include="Content\Styles\Bootstrap.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_alerts.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_background-variant.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_border-radius.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_buttons.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_center-block.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_clearfix.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_forms.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_gradients.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_grid.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_hide-text.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_image.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_labels.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_list-group.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_nav-vertical-align.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_opacity.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_pagination.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_panels.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_progress-bar.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_reset-filter.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_resize.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_responsive-visibility.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_size.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_tab-focus.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_table-row.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_text-overflow.scss" />
+    <Content Include="Content\Styles\Bootstrap\mixins\_vendor-prefixes.scss" />
+    <Content Include="Content\Styles\Bootstrap\_alerts.scss" />
+    <Content Include="Content\Styles\Bootstrap\_badges.scss" />
+    <Content Include="Content\Styles\Bootstrap\_breadcrumbs.scss" />
+    <Content Include="Content\Styles\Bootstrap\_button-groups.scss" />
+    <Content Include="Content\Styles\Bootstrap\_buttons.scss" />
+    <Content Include="Content\Styles\Bootstrap\_carousel.scss" />
+    <Content Include="Content\Styles\Bootstrap\_close.scss" />
+    <Content Include="Content\Styles\Bootstrap\_code.scss" />
+    <Content Include="Content\Styles\Bootstrap\_component-animations.scss" />
+    <Content Include="Content\Styles\Bootstrap\_dropdowns.scss" />
+    <Content Include="Content\Styles\Bootstrap\_forms.scss" />
+    <Content Include="Content\Styles\Bootstrap\_glyphicons.scss" />
+    <Content Include="Content\Styles\Bootstrap\_grid.scss" />
+    <Content Include="Content\Styles\Bootstrap\_input-groups.scss" />
+    <Content Include="Content\Styles\Bootstrap\_jumbotron.scss" />
+    <Content Include="Content\Styles\Bootstrap\_labels.scss" />
+    <Content Include="Content\Styles\Bootstrap\_list-group.scss" />
+    <Content Include="Content\Styles\Bootstrap\_media.scss" />
+    <Content Include="Content\Styles\Bootstrap\_mixins.scss" />
+    <Content Include="Content\Styles\Bootstrap\_modals.scss" />
+    <Content Include="Content\Styles\Bootstrap\_navbar.scss" />
+    <Content Include="Content\Styles\Bootstrap\_navs.scss" />
+    <Content Include="Content\Styles\Bootstrap\_normalize.scss" />
+    <Content Include="Content\Styles\Bootstrap\_pager.scss" />
+    <Content Include="Content\Styles\Bootstrap\_pagination.scss" />
+    <Content Include="Content\Styles\Bootstrap\_panels.scss" />
+    <Content Include="Content\Styles\Bootstrap\_popovers.scss" />
+    <Content Include="Content\Styles\Bootstrap\_print.scss" />
+    <Content Include="Content\Styles\Bootstrap\_progress-bars.scss" />
+    <Content Include="Content\Styles\Bootstrap\_responsive-embed.scss" />
+    <Content Include="Content\Styles\Bootstrap\_responsive-utilities.scss" />
+    <Content Include="Content\Styles\Bootstrap\_scaffolding.scss" />
+    <Content Include="Content\Styles\Bootstrap\_tables.scss" />
+    <Content Include="Content\Styles\Bootstrap\_theme.scss" />
+    <Content Include="Content\Styles\Bootstrap\_thumbnails.scss" />
+    <Content Include="Content\Styles\Bootstrap\_tooltip.scss" />
+    <Content Include="Content\Styles\Bootstrap\_type.scss" />
+    <Content Include="Content\Styles\Bootstrap\_utilities.scss" />
+    <Content Include="Content\Styles\Bootstrap\_variables.scss" />
+    <Content Include="Content\Styles\Bootstrap\_wells.scss" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\Styles\partials\_variables.scss" />
+    <Content Include="Content\Styles\_common.scss" />
+    <Content Include="Content\Styles\partials\_mixins.scss" />
+    <Content Include="Content\Styles\partials\_layout.scss" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
@@ -895,6 +974,7 @@
     <Compile Include="App_Start\JsonConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -918,6 +998,8 @@
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="tslint.json" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -926,12 +1008,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\directives\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Content\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\app.ts" />
+    <TypeScriptCompile Include="app\controllers\ProjectFormController.ts" />
+    <TypeScriptCompile Include="app\controllers\RootController.ts" />
+    <TypeScriptCompile Include="app\models\IComment.d.ts" />
+    <TypeScriptCompile Include="app\models\ILocation.d.ts" />
+    <TypeScriptCompile Include="app\models\IUnit.d.ts" />
+    <TypeScriptCompile Include="app\models\IProjectItem.d.ts" />
+    <TypeScriptCompile Include="app\models\IProject.d.ts" />
+    <TypeScriptCompile Include="app\services\LocationService.ts" />
+    <TypeScriptCompile Include="app\services\CommentService.ts" />
+    <TypeScriptCompile Include="app\services\UnitService.ts" />
+    <TypeScriptCompile Include="app\services\ProjectService.ts" />
     <TypeScriptCompile Include="Scripts\typings\angular-ui-bootstrap\angular-ui-bootstrap.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
