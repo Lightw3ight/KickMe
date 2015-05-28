@@ -7,5 +7,10 @@ KickMe.v12.suo
 packages
 KickMe.Web/Content/Styles/**/*.css
 node_modules
+<<<<<<< HEAD
 KickMe.Web/app/**/*.js
 KickMe.Web/app/**/*.map
+=======
+KickMe.Data/bin
+KickMe.Data/obj
+>>>>>>> c2736aec4afe6d26f04623da56bdf6edec30206b

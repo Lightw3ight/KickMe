@@ -1,1 +1,22 @@
-﻿Hello world
+﻿<div class="app-root container" ng-app="app" ng-controller="RootController as root">
+	<header class="app-header">
+		<div class="container">
+			<h1>!</h1>
+
+			<div class="pull-right">
+				<button class="btn btn-default" ng-click="root.createProject()">Create</button>
+			</div>
+		</div>
+	</header>
+
+	<main class="app-main">
+		<div class="container" ng-view></div>
+	</main>
+
+	<footer class="app-footer">
+		<div class="container">
+			footer
+		</div>
+	</footer>
+</div>
+
