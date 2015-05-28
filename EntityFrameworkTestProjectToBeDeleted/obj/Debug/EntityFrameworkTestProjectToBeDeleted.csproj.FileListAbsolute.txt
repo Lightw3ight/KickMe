@@ -1,0 +1,12 @@
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\EntityFrameworkTestProjectToBeDeleted.exe.config
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\EntityFrameworkTestProjectToBeDeleted.exe
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\EntityFrameworkTestProjectToBeDeleted.pdb
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\EntityFramework.dll
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\EntityFramework.SqlServer.dll
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\KickMe.Data.dll
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\KickMe.Data.pdb
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\EntityFramework.xml
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\bin\Debug\EntityFramework.SqlServer.xml
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\obj\Debug\EntityFrameworkTestProjectToBeDeleted.csprojResolveAssemblyReference.cache
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\obj\Debug\EntityFrameworkTestProjectToBeDeleted.exe
+C:\Data\KickMe\EntityFrameworkTestProjectToBeDeleted\obj\Debug\EntityFrameworkTestProjectToBeDeleted.pdb

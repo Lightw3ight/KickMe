@@ -3,3 +3,9 @@ KickMe.Web/obj
 .idea
 Visual Studio 2013
 .sass-cache
+KickMe.v12.suo
+packages
+KickMe.Web/Content/Styles/**/*.css
+node_modules
+KickMe.Data/bin
+KickMe.Data/obj
